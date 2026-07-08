@@ -1,2 +1,2 @@
-# 📅 Week 1
-This folder contaains the daily diary for Week 1.
+# :date: Week 1
+This folder contains the daily diary for Week 1.
