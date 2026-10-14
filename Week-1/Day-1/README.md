@@ -21,3 +21,4 @@ Then we discussed about 4 types of computing:-
 So basically user sends request through internet, it goes to cloud, cloud forwards it to application, application talks to database and gets the data back and shows to user.  
 
 Overall, day 1 was about Core concepts of Cloud Computing, getting to know what cloud computing actually is and why everyone is shifting to cloud instead of normal servers, next classes probably will go deeper into AWS GCP AZURE individually and then devops tools like docker, kubernetes, ci/cd etc.
+  
