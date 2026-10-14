@@ -1,16 +1,16 @@
 # 📘 DAY 1
 
-## ☁️ Introduction to Cloud Computing
+## Introduction to Cloud Computing
 
 Today, we were introduced to cloud computing and Amazon Web Services (AWS). We learned how computing resources can be accessed over the internet and why organizations use cloud platforms instead of relying entirely on their own physical infrastructure.
 
-## ☁️ What Is Cloud Computing?
+## What Is Cloud Computing?
 
 Cloud computing is the delivery of computing services, such as servers, storage, databases, networking, and software, over the internet.
 
 Instead of purchasing and maintaining all the required hardware, users can obtain resources from cloud providers according to their requirements.
 
-## ⭐ Characteristics of Cloud Computing
+## Characteristics of Cloud Computing
 
 The major characteristics of cloud computing include:
 
@@ -20,7 +20,7 @@ The major characteristics of cloud computing include:
 - **Rapid elasticity:** Resources can scale up or down according to demand.
 - **Measured service:** Resource usage can be monitored and billed according to the pricing model.
 
-## 📈 Scalability
+## Scalability
 
 Scalability refers to the ability of a system to handle changes in workload by adjusting its resources.
 
@@ -31,7 +31,7 @@ Scalability refers to the ability of a system to handle changes in workload by a
 
 These approaches help applications handle changing workloads efficiently.
 
-## 🌍 Cloud Service Providers
+## Cloud Service Providers
 
 We were introduced to three major cloud providers:
 
@@ -41,7 +41,7 @@ We were introduced to three major cloud providers:
 
 These platforms provide services for computing, storage, networking, databases, and application deployment.
 
-## 🧩 Cloud Computing Service Models
+## Cloud Computing Service Models
 
 | Model | Full Form | Purpose |
 |---|---|---|
@@ -50,7 +50,7 @@ These platforms provide services for computing, storage, networking, databases, 
 | SaaS | Software as a Service | Provides ready-to-use software over the internet. |
 | FaaS | Function as a Service | Runs individual functions in response to events without requiring users to manage the underlying servers. |
 
-## 🏗️ Cloud Computing Architecture
+## Cloud Computing Architecture
 
 Cloud computing architecture consists of components that work together to provide services.
 
@@ -62,7 +62,7 @@ The main components include:
 
 A user sends a request through a network, the cloud processes the request, and the required response is returned to the user.
 
-## 💡 Key Learnings
+## Key Learnings
 
 - Understood the meaning and importance of cloud computing.
 - Learned the main characteristics of cloud computing.
@@ -71,6 +71,6 @@ A user sends a request through a network, the cloud processes the request, and t
 - Understood IaaS, PaaS, SaaS, and FaaS.
 - Learned the basic architecture of cloud computing.
 
-## ✅ Conclusion
+## Conclusion
 
 Day 1 introduced the fundamentals of cloud computing and explained how cloud services provide flexible, scalable, and accessible computing resources.
