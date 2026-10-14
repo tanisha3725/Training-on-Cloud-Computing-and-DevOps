@@ -36,3 +36,4 @@ We then explored the linux file system hierarchy and directory system.
   
 Then we created multiple user accounts and assigned permissions to each user according to their role. At last we understood the basics of SSH (Secure Shell)
 for remotely accessing another device. 
+  
