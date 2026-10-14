@@ -1,10 +1,10 @@
 # 📘 DAY 3
 
-## 🌐 Web Servers, File Permissions and Website Deployment
+## Web Servers, File Permissions and Website Deployment
 
 Today, we learned about Linux file permissions, web servers, and the process of deploying a simple webpage online. We also explored how files are served to users through a web server and how hosting platforms make websites accessible over the internet.
 
-## 🔐 Linux File Permissions
+## Linux File Permissions
 
 Linux provides a permission system to control who can read, write, or execute a file. Permissions are assigned to three categories of users:
 
@@ -42,7 +42,7 @@ Two popular web servers are:
 
 We also discussed the importance of the `index` file, such as `index.html`, which commonly serves as the default webpage when a visitor opens a website.
 
-## ⚙️ Local Web Development Environments
+## Local Web Development Environments
 
 We were introduced to XAMPP, a development environment used for running web applications locally.
 
@@ -52,7 +52,7 @@ Related environments include:
 - **LAMP:** Linux, Apache, MySQL/MariaDB, PHP.
 - **MAMP:** A local web development environment commonly associated with macOS.
 
-## 🚀 Deploying a Website Using Vercel
+## Deploying a Website Using Vercel
 
 We explored Vercel as a platform for deploying websites and making them accessible through a public URL.
 
@@ -60,7 +60,7 @@ The practical task involved deploying a simple webpage on Vercel and understandi
 
 We also received an introduction to file management and providing access to files through hosting-related tools.
 
-## 💡 Key Learnings
+## Key Learnings
 
 - Understood Linux file permissions and the purpose of `chmod`.
 - Learned about owners, groups, and other users in Linux.
@@ -69,6 +69,6 @@ We also received an introduction to file management and providing access to file
 - Learned the basics of local web development environments.
 - Gained an introduction to deploying a webpage using Vercel.
 
-## ✅ Conclusion
+## Conclusion
 
 Day 3 helped me understand how Linux permissions control file access, how web servers deliver webpages, and how a simple website can be deployed online using a hosting platform.
