@@ -1,10 +1,10 @@
 # 📘 DAY 3
 
-## 🔑 AWS Key Pairs, IAM and Amazon S3
+## AWS Key Pairs, IAM and Amazon S3
 
 Today, we explored AWS security and access management, key pairs used for instance authentication, and Amazon S3 for object storage.
 
-## 🔐 EC2 Key Pairs
+## EC2 Key Pairs
 
 An EC2 key pair is used to authenticate access to supported EC2 instances.
 
@@ -17,7 +17,7 @@ The private key must be protected because anyone who obtains it may be able to a
 
 We also explored downloading a private key file in PEM format during key-pair creation.
 
-## 👤 AWS IAM
+## AWS IAM
 
 IAM stands for **Identity and Access Management**. It helps control who can access AWS resources and which actions they are allowed to perform.
 
@@ -32,7 +32,7 @@ IAM is a global AWS service, meaning it is not managed as a separate independent
 
 We explored creating an IAM user, creating user groups, and understanding how permissions are assigned.
 
-## 🪣 Amazon S3
+## Amazon S3
 
 S3 stands for **Amazon Simple Storage Service**. It is an object storage service used to store and retrieve data.
 
@@ -44,7 +44,7 @@ Important concepts include:
 
 We also discussed that S3 buckets are created in a selected AWS Region and that access to buckets and objects is controlled through permissions and configuration.
 
-## 💡 Key Learnings
+## Key Learnings
 
 - Understood public and private keys and the PEM format.
 - Learned the purpose of IAM users, groups, policies, and roles.
@@ -52,6 +52,6 @@ We also discussed that S3 buckets are created in a selected AWS Region and that 
 - Learned the difference between S3 buckets and objects.
 - Explored the regional nature of S3 bucket creation.
 
-## ✅ Conclusion
+## Conclusion
 
 Day 3 helped me understand the importance of authentication, access management, and cloud storage when working with AWS services.
