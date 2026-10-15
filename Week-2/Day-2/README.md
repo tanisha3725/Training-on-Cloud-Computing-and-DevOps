@@ -1,55 +1,41 @@
 # 📘 DAY 2
 
-## Introduction to AWS and Virtualization
+## Amazon EC2 — Elastic Compute Cloud
 
-Today, we explored Amazon Web Services (AWS), its basic infrastructure, and the role of virtualization in cloud computing. We also created an AWS account and received an introduction to important AWS services.
+Today, we explored Amazon EC2, an AWS service that provides virtual computing instances. These instances can be used to run applications, host websites, and perform computing tasks without purchasing physical servers.
 
-## Virtualization
+## What Is an EC2 Instance?
 
-Virtualization is a technology that allows multiple virtual computing environments to run on the same physical hardware.
+An EC2 instance is a virtual server running in the AWS cloud. Users can select its operating system, instance type, and other configuration options according to their needs.
 
-A virtual machine behaves like an independent computer with its own operating system and allocated resources. Virtualization helps improve hardware utilization and supports the flexible provisioning of cloud resources.
+## Important AWS Infrastructure Concepts
 
-## Amazon Web Services (AWS)
+- **Region:** A geographical area where AWS operates its cloud infrastructure.
+- **Availability Zone:** An isolated location within an AWS Region that contains one or more data centres.
+- **Data Centre:** A physical facility containing servers, storage, networking equipment, and supporting infrastructure.
 
-AWS is a cloud computing platform that provides services for computing, storage, databases, networking, security, and application deployment.
+Using multiple Availability Zones can improve application availability and resilience.
 
-We created an AWS account to begin exploring the platform and its available services.
+## Practical Work
 
-## Three Important Areas of AWS
+We created an AWS account and explored the AWS Management Console. We then worked with the Amazon EC2 service and learned the basic process of creating a virtual machine.
 
-We discussed three important areas of cloud infrastructure:
+The main steps involved are:
 
-- **Compute:** Provides processing resources for running applications.
-- **Storage:** Stores files, objects, and other data.
-- **Data transfer and networking:** Supports communication between cloud resources and users.
-
-## AWS Global Infrastructure
-
-AWS organizes its infrastructure into geographical Regions and Availability Zones.
-
-- **Region:** A geographical area containing multiple AWS data centres grouped into Availability Zones.
-- **Availability Zone (AZ):** An isolated location within a Region containing one or more data centres.
-- **Data centre:** A physical facility containing computing, storage, and networking equipment.
-
-Using multiple Availability Zones can help improve application availability and resilience.
-
-## Amazon EC2
-
-EC2 stands for **Amazon Elastic Compute Cloud**. It provides virtual servers called instances that can run applications and operating systems.
-
-An EC2 instance can be used to host a website, run a backend service, or perform computing tasks.
-
-We were introduced to EC2 as one of the core compute services offered by AWS.
+1. Open the EC2 service in the AWS Console.
+2. Choose an Amazon Machine Image (AMI).
+3. Select an instance type.
+4. Configure the required network and security settings.
+5. Configure a key pair if required.
+6. Review the settings and launch the instance.
 
 ## Key Learnings
 
-- Understood virtualization and virtual machines.
-- Created an AWS account.
-- Explored the main categories of AWS services.
-- Learned the difference between Regions, Availability Zones, and data centres.
 - Understood the purpose of Amazon EC2.
+- Learned the meaning of Regions and Availability Zones.
+- Explored the basic EC2 instance-launching process.
+- Understood how virtual servers are provided through cloud computing.
 
 ## Conclusion
 
-Day 2 introduced AWS and its infrastructure, helping me understand how virtual machines and cloud resources are used to run applications.
+This session provided practical exposure to cloud-based virtual machines and explained how EC2 can be used to run applications on AWS.
