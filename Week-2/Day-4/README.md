@@ -1,57 +1,45 @@
 # 📘 DAY 4
 
-## Version Control with Git and GitHub
+## AWS IAM — Identity and Access Management
 
-Today, we were introduced to version control and learned how Git and GitHub support software development and collaboration. We explored essential Git commands and the workflow used to contribute changes to a shared repository.
+Today, we learned about AWS Identity and Access Management (IAM), which helps control who can access AWS resources and which actions they can perform.
 
-## Version Control System
+## Important IAM Concepts
 
-A Version Control System (VCS) tracks changes made to files over time. It helps developers review previous versions, identify modifications, and collaborate without losing track of their work.
+- **IAM User:** An identity that can be assigned permissions to access AWS resources.
+- **IAM Group:** A collection of IAM users that can share permissions.
+- **IAM Policy:** A document that defines allowed or denied actions on specified resources.
+- **Permissions:** Rules determining which actions an identity can perform.
 
-Git is a **distributed version control system**, meaning each clone of a repository can contain its own copy of the repository's history.
+IAM is a global AWS service, meaning its configuration is not restricted to one individual AWS Region.
 
-GitHub is a platform for hosting Git repositories and collaborating with other developers.
+## Practical Work
 
-## Essential Git Commands
+We explored IAM and practised creating an IAM user and a user group. We also learned how permissions can be assigned to control access to AWS resources.
 
-| Command | Purpose |
-|---|---|
-| `git init` | Initializes a Git repository. |
-| `git status` | Displays the state of the working directory and staging area. |
-| `git add .` | Stages changes in the current directory and its subdirectories. |
-| `git commit -m "message"` | Records staged changes in a commit. |
-| `git remote add origin URL` | Adds a remote repository under the name `origin`. |
-| `git push -u origin main` | Pushes the local `main` branch to the remote and sets its upstream. |
+A typical workflow includes:
 
-The branch name may differ depending on the repository configuration.
+1. Open the IAM service in the AWS Console.
+2. Create an IAM user.
+3. Create a user group when appropriate.
+4. Attach a suitable permissions policy.
+5. Review the user's assigned access.
 
-## GitHub Collaboration Workflow
+## Introduction to RSA Key Pairs
 
-We explored the main steps involved in contributing to an existing GitHub project.
+We also learned about RSA key pairs and the `.pem` private-key file format used in certain cloud access workflows.
 
-1. **Fork:** Creates a copy of another user's repository under your account.
-2. **Clone:** Downloads a repository to your local machine.
-3. **Branch:** Creates an independent line of development.
-4. **Edit:** Modify the project files.
-5. **Commit:** Save a snapshot of staged changes in the local repository.
-6. **Push:** Upload commits to a remote repository.
-7. **Pull Request (PR):** Proposes changes for review and possible merging.
+An RSA key pair contains a public key and a private key. In supported EC2 connection workflows, the public key is configured for access while the private key must be protected.
 
-Branches allow developers to work on new features without directly modifying the main development branch.
-
-## GitHub Desktop
-
-GitHub Desktop provides a graphical interface for common Git operations, including cloning repositories, viewing changes, committing files, and synchronizing with remote repositories.
+A `.pem` file may contain a private key, so it should never be uploaded to a public repository or shared with unauthorized people.
 
 ## Key Learnings
 
-- Differentiated Git from GitHub.
-- Understood the purpose of version control.
-- Practiced the basic Git workflow and commands.
-- Learned the difference between forking and cloning.
-- Understood branches and pull requests.
-- Explored GitHub Desktop as a graphical Git client.
+- Understood the purpose of AWS IAM.
+- Learned the difference between users, groups, and policies.
+- Explored the creation of users and groups.
+- Learned the importance of permissions and protecting private keys.
 
 ## Conclusion
 
-Day 4 introduced the essential version-control workflow used by developers to manage code changes and collaborate on software projects.
+This session highlighted how IAM helps manage AWS access and why secure identity and permission management is essential in cloud environments.
