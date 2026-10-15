@@ -1,63 +1,42 @@
 # 📘 DAY 5
 
-## Introduction to DevOps, CI/CD and Docker
+## AWS Lambda — Serverless Computing
 
-Today, we were introduced to DevOps, Continuous Integration and Continuous Delivery/Deployment (CI/CD), containerization, and the tools used to automate software development workflows.
+Today, we explored the concept of AWS Lambda and its relationship to Function as a Service (FaaS).
 
-## What Is DevOps?
+## What Is AWS Lambda?
 
-DevOps combines development and operations practices to improve collaboration, software delivery, automation, and reliability.
+AWS Lambda is a serverless compute service that runs code in response to events. AWS manages the underlying infrastructure, so developers do not need to provision and maintain servers for every function.
 
-It encourages development and operations teams to work together throughout the software lifecycle instead of treating development and deployment as completely separate activities.
+Lambda functions can be triggered by events from supported AWS services or other configured sources.
 
-## DevOps Lifecycle
+## How Lambda Works
 
-The DevOps lifecycle includes several connected stages:
+A typical Lambda workflow involves:
 
-1. **Plan:** Define requirements and plan development work.
-2. **Develop:** Write and manage application code.
-3. **Build:** Compile or package the application when required.
-4. **Test:** Check application functionality and quality.
-5. **Release:** Prepare a version for delivery.
-6. **Deploy:** Make the application available in the target environment.
-7. **Operate:** Run and maintain the application.
-8. **Monitor:** Observe application performance, availability, and errors.
+1. Writing a function.
+2. Configuring the function and its execution permissions.
+3. Defining an event source or trigger.
+4. Invoking the function when the event occurs.
+5. Reviewing the execution result and logs.
 
-These stages may be automated and repeated continuously.
+## What Does Serverless Mean?
 
-## Introduction to CI/CD
+Serverless computing does not mean that physical servers do not exist. It means that the cloud provider manages the underlying server infrastructure for the customer.
 
-CI/CD refers to practices that automate software integration, testing, and delivery.
+## FaaS vs Traditional Server Management
 
-- **Continuous Integration (CI):** Developers frequently integrate changes into a shared codebase, with automated checks and tests.
-- **Continuous Delivery:** Keeps validated changes ready for release.
-- **Continuous Deployment:** Automatically deploys changes that pass the required checks.
+With FaaS, developers focus on individual functions and their logic rather than directly managing the servers on which they execute.
 
-A pipeline can include source-code changes, building, testing, and deployment.
-
-## Introduction to Docker
-
-Docker is a platform used to package applications and their dependencies into containers.
-
-- **Docker image:** A packaged template containing the application and the files needed to run it.
-- **Docker container:** A running or stopped instance created from an image.
-- **Docker Engine:** The software responsible for building and running containers.
-- **Docker CLI:** The command-line interface used to interact with Docker.
-
-Docker helps applications run more consistently across different environments.
-
-## Windows Subsystem for Linux (WSL2)
-
-WSL2 enables users to run a Linux environment on Windows. It is useful for practising Linux commands and working with development tools without requiring a separate physical Linux machine.
+For example, a function could process a file when it is uploaded to a configured storage service.
 
 ## Key Learnings
 
-- Understood the purpose of DevOps.
-- Learned the major stages of the DevOps lifecycle.
-- Differentiated CI, Continuous Delivery, and Continuous Deployment.
-- Explored Docker images, containers, Docker Engine, and Docker CLI.
-- Learned how WSL2 provides a Linux environment on Windows.
+- Understood the purpose of AWS Lambda.
+- Learned the relationship between Lambda and FaaS.
+- Explored event-driven execution and the concept of serverless computing.
+- Understood how cloud providers manage the underlying infrastructure.
 
 ## Conclusion
 
-Day 5 introduced modern software delivery practices and tools that connect development, testing, deployment, and operations.
+This session introduced serverless computing and showed how AWS Lambda can run code in response to events without requiring direct server management.
